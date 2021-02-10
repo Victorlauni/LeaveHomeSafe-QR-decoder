@@ -4,8 +4,8 @@ const decode = function(msg) {
     const LocateID = msg.substr(6, 8)
     const hash = msg.substr(14)
     const decodedMsg = JSON.parse(Buffer.from(hash, 'base64').toString())
-    console.log(decodedMsg)
+    return decodedMsg
   }
+  else return null
 }
-exports.decode = decode
-
+module.exports = decode
