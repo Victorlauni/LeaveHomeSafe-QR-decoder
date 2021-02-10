@@ -1,6 +1,6 @@
 {
   "name": "leavehomesafehk-qr-decoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To extract encoded information from leavehomesafe QR code",
   "main": "index.js",
   "scripts": {
